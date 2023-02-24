@@ -10,8 +10,9 @@ export function useThreeStateButton() {
                 break;
             case true:
                 setVisible(false);
+                break;
             case false:
-                setVisible(null);
+                return setVisible(null);
         }
     }
     return {

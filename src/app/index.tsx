@@ -10,8 +10,8 @@ export function App() {
         <ThreeStateButton
             stateFilter={visible}
             setStateFilter={handleVisibleFilter}
-            component={'visible'}
-            secondComponent={'not-visible'}
+            component={''}
+            secondComponent={''}
             titleComponent="visible"
             titleSecondComponent="non visibile"
         />

@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40vh 0vh;
+}
+
+.active {
+    background-color: none;
+    color: blueviolet;
+}
+
+button {
+    background-color: none;
+    border: none;
+    color: #696969;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}

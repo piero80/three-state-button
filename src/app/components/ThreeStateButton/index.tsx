@@ -6,7 +6,7 @@
 
 import * as React from 'react';
 import classNames from 'classnames';
-// import './src/app/components/styles.css';
+import './styles.css';
 
 interface Props {
     component?: React.ReactNode;
@@ -21,7 +21,6 @@ interface Props {
 export function ThreeStateButton(props: Props) {
     const { component, stateFilter, setStateFilter, titleComponent, secondComponent, titleSecondComponent, classname } =
         props;
-
     return (
         <div className="container">
             <button
