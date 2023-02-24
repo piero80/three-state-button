@@ -1,1 +1,1 @@
-# threeStateButton
+# three-state-button
